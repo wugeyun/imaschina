@@ -1,0 +1,85 @@
+/*base style*/
+body {font-family: Microsoft YaHei,"\5FAE\8F6F\96C5\9ED1";line-height:1.75;background:#efefef;color:#3e3e3e;}
+a {color:#666;}
+a:hover,a:focus {color:#E94C3D;text-decoration: none;}
+.ofh {overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;white-space: nowrap;width: 100%;}
+.my-mt20 {margin-top:20px;}
+.my-mb20 {margin-bottom:20px;}
+.my-mb30 {margin-bottom:30px;}
+.my-mt10 {margin-top:10px;}
+.my-mb10 {margin-bottom:10px;}
+.my-ml10 {margin-left:10px;}
+.my-mt50 {margin-top:50px;}
+.my-pt20 {padding-top:20px;}
+.my-pt5 {padding-top:5px;}
+.my-pt10 {padding-top:10px;}
+.my-pb10 {padding-bottom:10px;}
+.my-pr10 {padding-right:10px;}
+.my-pl10 {padding-left:10px;}
+.my-bg-fff {background:#fff;}
+.my-bg-ef {background:#efefef;}
+.my-page .current,.my-page .num,.my-page .next,.my-page .prev,.my-page .first,.my-page .end,.my-page span {padding:5px 10px; border:1px solid #ddd;}
+.my-page a {background:#ddd;}
+.my-nowrap {white-space:nowrap}
+.my-list {overflow: hidden;}
+.navbar {min-height: 60px;margin-bottom: 0;}
+.navbar-brand {padding-top:5px;height:60px;}
+.navbar-nav>li>a {line-height: 30px;}
+.navbar-form {margin-top:10px;}
+.my-list small{overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;white-space: nowrap;width:70%;}
+/*pin*/
+.my-pin {z-index:999;}
+#back-to-top {display:none;position: fixed;right: 10px;bottom: 10px;background: #ed4040;color: #fff;text-align: center;border-radius: 2px;z-index: 1;}
+#back-to-top i {width: 30px;height: 30px;line-height: 30px;}
+/*heider*/
+.main-header {padding-top: 350px; background-repeat: no-repeat;background-position: center 50%; -webkit-background-size: cover; background-size: cover;}
+.main-header h1 {color:#fff;font-size: 3em;font-weight: 400;}
+.main-header .container {margin-top: 90px;}
+/*my-top*/
+.my-top {line-height:30px;background:#ed4040;color:#fff;}
+.my-top img {height:24px;}
+.my-top a {color:#fff;}
+.my-plane span {display:none;}
+/*flash*/
+.carousel-indicators .active,.carousel-indicators li {width: 25px;border-radius:0;}
+/*my-banner*/
+.my-banner {background:#fff;padding-top:10px;padding-bottom:10px;border-bottom:5px solid #ddd;}
+.my-banner img {height:46px;}
+/*my-panel*/
+.panel-primary a {color: cornsilk;}
+/* video*/
+.my-video {overflow:hidden;}
+.my-video .panel-body img {-webkit-transition: opacity 1s, -webkit-transform 1s;transition: opacity 1s, transform 1s;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+.my-video .panel-body:hover img {-webkit-transform: scale3d(1.1,1.1,1);transform: scale3d(1.1,1.1,1);}
+.my-video .panel-body {position:relative;padding:10px 0;}
+.my-video .panel-body a{color:#fff;}
+.my-video .panel-body p {font-size:0.9em;margin-bottom:0;padding-left:10px;padding-right:10px;}
+.my-video .panel-body .my-span {color:#fff;display:none;font-size:1.5em;position:absolute;left:10px;top:0px;}
+.my-lighting {width:100%;height:0;position:absolute;left:0px;bottom:0px;z-index:2;background:#000;opacity:0;filter:alpha(opacity=0);color:#fff;padding:10px;padding-top:20px;line-height:1.2;}
+.my-lighting hr {margin-top:10px;margin-bottom:10px;}
+/*myTabs*/
+#myTabs {border-bottom:5px #efefef solid;}
+.nav-tabs.nav-justified>li {display: table-cell;width: 1%;}
+.nav-tabs.nav-justified>li>a {border:none;border-radius:0;margin-bottom:0;}
+.nav-tabs.nav-justified>li>a:hover {background:none;border:none;background:#ed4040;color:#fff;}
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {border:none;background:#ed4040;color:#fff;}
+.my-list-hover {background:#efefef;}
+/*myEzine*/
+#myEzine {cursor:pointer;}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {background:#ed4040;}
+.lazy {max-width: 150px;max-height: 120px;margin-right: 10px;}
+/* media */
+@-moz-document url-prefix() {
+
+}
+@media (min-width: 768px){
+    .carousel-inner img{width: 800px;height: 400px;}
+    .max-h68 {max-height: 68px;}
+}
+@media (min-width: 1200px){
+
+}
+@media (max-width: 767px){
+    .main-header .container {margin-top: 0;}
+    .lazy {max-width: 100px;max-height: 80px;}
+}
